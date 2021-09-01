@@ -1,0 +1,29 @@
+@import "structure.css";
+@import "desktop-size.css" (min-width:901px);
+@import "tablet-size.css" (min-width:600px) and (max-width:900px);
+
+
+body{
+    background-color: aliceblue;
+}
+
+p{
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+a{
+
+}
+
+
+
+
+
