@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    width: auto;
+    grid-template-columns: 80wv;
+    grid-template-rows: 100px 50px 600px 100px;
+    grid-template-areas: 
+    "hd"
+    "nav"
+    "main"
+    "ft";
+    border: 2px solid pink;
+}
+
+.navigation{
+    display: grid;
+    grid-area: nav;
+    width: auto;
+    grid-auto-rows: minmax(25px, auto);
+    grid-template-areas: 
+    "topLeft topRight"
+    "bottom bottom";
+}
+
+#lifestyle{
+    grid-area: topLeft;
+}
+
+#travel{
+    grid-area: topRight;
+}
+
+#food{
+        grid-area: bottom;
+}

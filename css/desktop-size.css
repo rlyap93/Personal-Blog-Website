@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    width: auto;
+    grid-template-columns: 80wv;
+    grid-template-rows: 100px 25px 600px 100px;
+    grid-template-areas: 
+    "hd"
+    "nav"
+    "main"
+    "ft";
+    border: 2px solid blue;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
