@@ -1,10 +1,16 @@
 @import "structure.css";
 @import "desktop-size.css" (min-width:901px);
 @import "tablet-size.css" (min-width:600px) and (max-width:900px);
-
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
 
 body{
-    background-color: aliceblue;
+    background-color: #fbfbfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+p, a, span {
+    line-height: 1.5;
 }
 
 p{
@@ -12,18 +18,113 @@ p{
 }
 
 h1{
-
+    font-size: 3em;
 }
 
 h2{
+    font-size: 2em;
+    line-height: 100%;
+}
 
+h3{
+    font-size: 2em;
+    line-height: 20%;
 }
 
 a{
-
+    text-decoration: none;
 }
 
+#blog-name{
+    font-family: 'Love Ya Like A Sister', cursive;
+}
 
+/* #blog-photo{
+    width: 300px;
+    height: 150px;
+    border: 1px solid green;
+} */
 
+a[id="nav"]{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #515151;
+    display: block;
+    height: 100%;
+}
 
+a[id="nav"]:hover{
+    color: #fff;
+    font-weight: 600;
+}
 
+a[id="read-more"]{
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+a[id=read-more]:hover{
+    background-color: #eccfcf;
+    color: #fff;
+}
+
+button[id="subscribe-btn"]{
+    background-color: #eccfcf;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+}
+
+button[id="subscribe-btn"]:hover{
+    color: #fff;
+    font-weight: 600;
+}
+
+#blog-type{
+    color: #66697a;
+    font-size: 0.9em;
+}
+
+#blog-title{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+input[type=textbox]{
+    color: #c3c4c5;
+    width: 200px;
+}
+
+img[id="blog-photo"]{
+    width: 250px;
+    height: 187px;
+    box-shadow: 5px 2px 2px #7d8092;
+    opacity: 0.8;
+}
+
+img[id="blog-photo"]:hover{
+    width: 250px;
+    height: 187px;
+}
+
+img[class=blog-entry]{
+    width: 350px;
+    height: 225px;
+    box-shadow: 5px 2px 2px #7d8092;
+}
+
+span[id="socmed"]{
+    text-transform: uppercase;
+}
+
+a[class="socmed-link"]{
+    background-color: #eccfcf;
+    padding: 5px;
+    text-decoration: none;
+    color: #515151;
+    opacity: 0.8;
+}
+
+a[class="socmed-link"]:hover{
+    color: #fff;
+    font-weight: 600;
+}

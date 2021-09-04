@@ -1,15 +1,15 @@
-.container{
+/* .container{
     display: grid;
     width: auto;
     grid-template-columns: 80wv;
-    grid-template-rows: 100px 50px 600px 100px;
+    grid-template-rows: 120px 50px minmax(500px,1fr) 100px;
     grid-template-areas: 
     "hd"
     "nav"
     "main"
     "ft";
     border: 2px solid pink;
-}
+} */
 
 .navigation{
     display: grid;
@@ -21,7 +21,13 @@
     "bottom bottom";
 }
 
-#lifestyle{
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px dotted purple; */
+}
+
+/* #lifestyle{
     grid-area: topLeft;
 }
 
@@ -31,4 +37,4 @@
 
 #food{
         grid-area: bottom;
-}
+} */
