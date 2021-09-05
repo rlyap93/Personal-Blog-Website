@@ -1,0 +1,31 @@
+/*Main page images*/
+img[id="blog-photo"]{
+    width: 250px;
+    height: 187px;
+    box-shadow: 5px 2px 2px #7d8092;
+    opacity: 0.8;
+}
+
+img[id="blog-photo"]:hover{
+    width: 250px;
+    height: 187px;
+}
+
+/*Blog page images*/
+img[class=blog-entry]{
+    width: 350px;
+    height: 225px;
+    box-shadow: 5px 2px 2px #7d8092;
+}
+
+img[id="avatar"]{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+figcaption{
+  font-style: italic;
+  padding: 2px;
+
+}

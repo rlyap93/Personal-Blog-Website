@@ -1,7 +1,9 @@
 @import "structure.css";
 @import "desktop-size.css" (min-width:901px);
+@import "image-stylesheet.css";
 @import "tablet-size.css" (min-width:600px) and (max-width:900px);
-@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Patrick+Hand&family=Rancho&family=Shadows+Into+Light&display=swap');
+
 
 body{
     background-color: #fbfbfc;
@@ -10,25 +12,31 @@ body{
 }
 
 p, a, span {
-    line-height: 1.5;
-}
-
-p{
-
+    line-height: 1.8;
 }
 
 h1{
     font-size: 3em;
+    color: #464545;
+    text-shadow: 1px 1px #7d8092;
 }
 
 h2{
     font-size: 2em;
-    line-height: 100%;
+    line-height: 120%;
+    color: #eccfcf;
+    text-shadow: 1px 1px #b1b3be;
 }
 
 h3{
-    font-size: 2em;
-    line-height: 20%;
+    font-size: 1.5em;
+    line-height: 110%;
+    color: #515151;
+}
+
+h4{
+    font-size: 1.4em;
+    line-height: 110%;
 }
 
 a{
@@ -39,11 +47,6 @@ a{
     font-family: 'Love Ya Like A Sister', cursive;
 }
 
-/* #blog-photo{
-    width: 300px;
-    height: 150px;
-    border: 1px solid green;
-} */
 
 a[id="nav"]{
     font-size: 1.2em;
@@ -58,14 +61,36 @@ a[id="nav"]:hover{
     font-weight: 600;
 }
 
-a[id="read-more"]{
-    font-size: 0.8em;
+a[class="read-more"], a[class="home-link"]{
     text-decoration: none;
+    color: inherit;
 }
 
-a[id=read-more]:hover{
+a[id=blog-link]:hover{
     background-color: #eccfcf;
     color: #fff;
+}
+
+a[id="about-me"], a[id="blank-page-link"]{
+    background-color: #eccfcf;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px double #fff;
+    outline: 1px solid #eccfcf;
+    line-height: 500%;
+}
+
+a[id="about-me"]:hover, a[id="blank-page-link"]:hover{
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    color: #eccfcf;
+    border-radius: 5px;
+    border: 2px double #eccfcf;
+    outline: 1px solid #fff;
+    line-height: 500%;
 }
 
 button[id="subscribe-btn"]{
@@ -94,24 +119,6 @@ input[type=textbox]{
     width: 200px;
 }
 
-img[id="blog-photo"]{
-    width: 250px;
-    height: 187px;
-    box-shadow: 5px 2px 2px #7d8092;
-    opacity: 0.8;
-}
-
-img[id="blog-photo"]:hover{
-    width: 250px;
-    height: 187px;
-}
-
-img[class=blog-entry]{
-    width: 350px;
-    height: 225px;
-    box-shadow: 5px 2px 2px #7d8092;
-}
-
 span[id="socmed"]{
     text-transform: uppercase;
 }
@@ -127,4 +134,8 @@ a[class="socmed-link"]{
 a[class="socmed-link"]:hover{
     color: #fff;
     font-weight: 600;
+}
+
+span[id="author-name"]{
+    font-family: 'Shadows Into Light', cursive;
 }

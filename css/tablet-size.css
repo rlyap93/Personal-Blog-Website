@@ -1,16 +1,4 @@
-/* .container{
-    display: grid;
-    width: auto;
-    grid-template-columns: 80wv;
-    grid-template-rows: 120px 50px minmax(500px,1fr) 100px;
-    grid-template-areas: 
-    "hd"
-    "nav"
-    "main"
-    "ft";
-    border: 2px solid pink;
-} */
-
+/*Page layout for tablet size screens*/
 .navigation{
     display: grid;
     grid-area: nav;
@@ -24,17 +12,4 @@
 .footer{
     display: flex;
     flex-direction: row;
-    /* border: 2px dotted purple; */
 }
-
-/* #lifestyle{
-    grid-area: topLeft;
-}
-
-#travel{
-    grid-area: topRight;
-}
-
-#food{
-        grid-area: bottom;
-} */
