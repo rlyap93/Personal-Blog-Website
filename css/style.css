@@ -139,3 +139,9 @@ a[class="socmed-link"]:hover{
 span[id="author-name"]{
     font-family: 'Shadows Into Light', cursive;
 }
+
+blockquote {
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+}
