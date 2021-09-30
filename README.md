@@ -8,4 +8,4 @@ The goal of this project was to be able to demonstrate the learning outcomes of 
 ### How to open
 
 #### Dependencies
-This landing page should work on different types of devices such as modern desktop, tablet, and phone browsers.
+This Personal Blog Website should work on different types of devices such as modern desktop, tablet, and phone browsers.
